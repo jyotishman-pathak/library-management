@@ -4,6 +4,7 @@ import "./globals.css";
 
 import localFont from "next/font/local";
 import { ReactNode } from "react";
+import { Toaster } from "@/components/ui/toaster";
 
 
 
@@ -40,7 +41,7 @@ const RootLayout = async ({ children }: { children: ReactNode }) => {
         >
           {children}
 
-     
+     <Toaster/>
         </body>
 
     </html>
